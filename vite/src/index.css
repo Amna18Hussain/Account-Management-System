@@ -1,0 +1,290 @@
+/* General Body Styles */
+body {
+  background-color: #f0f0f0; /* Light gray background for the body */
+  color: #333; /* Dark gray text color */
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Sign Up Form Styles */
+.signup-form-container {
+  width: 300px;
+  margin: 60px auto; /* Center vertically with margin-top */
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333; /* Dark grey */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  color: #333; /* Text color - dark grey */
+}
+
+.signup-form input::placeholder {
+  color: #999; /* Lighter grey for placeholder */
+}
+
+.signup-form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: grey; /* Button hover effect */
+}
+
+/* Role Selection Styles */
+.role-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff; /* White background for the box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 400px; /* Max width for the box */
+  margin: 100px auto; /* Center the box vertically and horizontally */
+}
+
+.role-buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 15px; /* Gap between buttons */
+  margin-top: 20px; /* Space above the buttons */
+}
+
+.role-buttons button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 16px; /* Font size */
+  color: #333; /* Dark gray text color for buttons */
+  background-color: #e0f7fa; /* Light cyan background */
+  border: 2px solid #4caf50; /* Green border */
+  border-radius: 5px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.role-buttons button:hover {
+  background-color: #4caf50; /* Green background on hover */
+  color: white; /* White text color on hover */
+  border-color: white; /* Show white border on hover */
+}
+
+/* Sign In Form Styles */
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fff; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 400px; /* Max width for the form */
+  margin: 100px auto; /* Center the form vertically and horizontally */
+}
+
+.sign-in-form h2 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.sign-in-form form {
+  width: 100%; /* Full width for the form */
+}
+
+.sign-in-form div {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+.sign-in-form label {
+  display: block; /* Labels on new lines */
+  margin-bottom: 5px; /* Space below labels */
+}
+
+.sign-in-form input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded input corners */
+  font-size: 16px; /* Font size */
+}
+
+.sign-in-form button {
+  padding: 10px; /* Button padding */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color for buttons */
+  background-color: #4caf50; /* Green background */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor */
+  width: 100%; /* Full width for button */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.sign-in-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Company Head Dashboard Styles */
+.company-head-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff; /* White background for the dashboard */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px; /* Max width for the dashboard */
+  margin: 100px auto; /* Center the dashboard vertically and horizontally */
+}
+
+.company-head-dashboard h1 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.company-head-dashboard form {
+  display: flex; /* Use flexbox for the form */
+  gap: 10px; /* Gap between input and button */
+  margin-bottom: 20px; /* Space below the form */
+}
+
+.company-head-dashboard input {
+  padding: 10px; /* Padding inside inputs */
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded input corners */
+  font-size: 16px; /* Font size */
+  flex: 1; /* Make the input take up available space */
+  min-width: 200px; /* Minimum width for input field */
+}
+
+.company-head-dashboard button {
+  padding: 5px 10px; /* Smaller button padding */
+  font-size: 14px; /* Smaller font size */
+  color: white; /* Text color for buttons */
+  background-color: #4caf50; /* Green background */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+  width: 36%; /* Width of the button */
+}
+
+.company-head-dashboard button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.company-head-dashboard h3 {
+  margin: 20px 0; /* Space above and below the heading */
+}
+
+.company-head-dashboard ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox for the list */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.company-head-dashboard li {
+  margin-bottom: 10px; /* Space below each list item */
+  border: 1px solid #ccc; /* Light gray border around tasks */
+  border-radius: 5px; /* Rounded corners for list items */
+  padding: 10px; /* Padding inside list items */
+  display: flex; /* Use flexbox for list items */
+  justify-content: space-between; /* Space between task name and remove button */
+  width: 260%; /* Center items */
+ /* Set a max-width for larger screens */
+}
+
+.company-head-dashboard span {
+  cursor: pointer; /* Pointer cursor for clickable names */
+  color: blue; /* Blue text for company names */
+}
+
+.company-head-dashboard .remove-btn {
+  background-color: #ff5722; /* Red background for remove button */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded button corners */
+  padding: 5px 10px; /* Padding */
+  cursor: pointer;
+  width: 30%; /* Pointer cursor */
+}
+
+.company-head-dashboard .remove-btn:hover {
+  background-color: #e64a19; /* Darker red on hover */
+}
+
+
+.company-head-details {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
